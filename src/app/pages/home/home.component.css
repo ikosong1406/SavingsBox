@@ -3,7 +3,6 @@
 }
 .header {
   width: 100%;
-  /* height: 100px; */
   background: rgb(198, 6, 126);
   background: linear-gradient(
     180deg,
@@ -19,10 +18,75 @@
   width: 700px;
   height: 300px;
 }
-.body {
+.section1 {
   padding: 70px;
+  width: 100%;
+  background: rgb(198, 131, 6);
+  background: linear-gradient(
+    180deg,
+    rgba(198, 131, 6, 1) 0%,
+    rgba(196, 112, 223, 1) 100%
+  );
+}
+.section2 {
+  width: 100%;
+  background: rgb(198, 6, 126);
+  background: linear-gradient(
+    180deg,
+    rgba(198, 6, 126, 1) 0%,
+    rgba(198, 6, 126, 1) 50%,
+    rgba(147, 14, 190, 1) 100%
+  );
+  display: flex;
+  padding: 20px;
+  color: white;
+}
+.part2 img {
+  width: 300px;
+  height: auto;
+}
+.p1 {
+  display: flex;
+  margin-left: 5%;
+}
+.p1 p {
+  width: 400px;
+  margin-top: 50px;
+  font-size: 15px;
+}
+.p1 .hr {
+  background-color: white;
+  width: 40%;
+  height: 2px;
+  margin-top: 100px;
+}
+.p2 {
+  display: flex;
+  margin-right: 20%;
+}
+.p2 p {
+  width: 500px;
+  margin-top: 30px;
+  font-size: 15px;
+  margin-left: 5%;
+}
+.p2 .hr {
+  background-color: white;
+  width: 40%;
+  height: 2px;
+  margin-top: 100px;
 }
 
+.section3 {
+  padding: 70px;
+  width: 100%;
+  background: rgb(198, 131, 6);
+  background: linear-gradient(
+    180deg,
+    rgba(198, 131, 6, 1) 0%,
+    rgba(196, 112, 223, 1) 100%
+  );
+}
 .footer {
   background: rgb(181, 7, 116);
   background: linear-gradient(
@@ -31,10 +95,8 @@
     rgba(163, 172, 7, 1) 100%
   );
   color: #fff;
-  text-align: center;
-  position: fixed;
   bottom: 0;
-  width: 82.5%;
+  width: 100%;
   display: flex;
   padding: 20px;
 }
@@ -49,9 +111,10 @@
   font-size: 13px;
   text-decoration: none;
   color: white;
+  width: 200px;
 }
 .footer p {
   font-size: 13px;
-  margin-left: 20%;
+  margin-left: 40%;
   width: 200px;
 }

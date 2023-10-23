@@ -15,6 +15,7 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { SavingsComponent } from './pages/savings/savings.component';
 import { SpendingComponent } from './pages/spending/spending.component';
 import { CreditComponent } from './pages/credit/credit.component';
+import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { CreditComponent } from './pages/credit/credit.component';
     SavingsComponent,
     SpendingComponent,
     CreditComponent,
+    ImageCarouselComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
