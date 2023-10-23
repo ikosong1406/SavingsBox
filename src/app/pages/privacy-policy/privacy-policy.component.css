@@ -1,0 +1,22 @@
+.container {
+  margin-left: 240px;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background: rgb(198, 6, 126);
+  background: linear-gradient(
+    180deg,
+    rgba(198, 6, 126, 1) 0%,
+    rgba(198, 6, 126, 1) 50%,
+    rgba(147, 14, 190, 1) 100%
+  );
+  text-align: center;
+  padding-top: 20%;
+  color: white;
+  font-size: 30px;
+  font-family: "Kanit", sans-serif;
+}
+.body {
+  padding: 50px;
+}

@@ -1,0 +1,57 @@
+.container {
+  margin-left: 240px;
+}
+.header {
+  width: 100%;
+  /* height: 100px; */
+  background: rgb(198, 6, 126);
+  background: linear-gradient(
+    180deg,
+    rgba(198, 6, 126, 1) 0%,
+    rgba(198, 6, 126, 1) 50%,
+    rgba(147, 14, 190, 1) 100%
+  );
+  text-align: center;
+  padding-top: 20%;
+  color: white;
+}
+.banner-mobile1 {
+  width: 700px;
+  height: 300px;
+}
+.body {
+  padding: 70px;
+}
+
+.footer {
+  background: rgb(181, 7, 116);
+  background: linear-gradient(
+    317deg,
+    rgba(181, 7, 116, 1) 0%,
+    rgba(163, 172, 7, 1) 100%
+  );
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 82.5%;
+  display: flex;
+  padding: 20px;
+}
+.vr {
+  width: 1px;
+  height: 20px;
+  background-color: #800505;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+}
+.footer p {
+  font-size: 13px;
+  margin-left: 20%;
+  width: 200px;
+}

@@ -1,0 +1,34 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 80%;
+  width: 200px;
+  background: rgb(198, 6, 126);
+  background: linear-gradient(
+    180deg,
+    rgba(198, 6, 126, 1) 0%,
+    rgba(198, 6, 126, 1) 50%,
+    rgba(147, 14, 190, 1) 100%
+  );
+  color: #fff;
+  padding: 20px;
+  margin-top: 102px;
+}
+.apple {
+  width: 200px;
+  height: 70px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.google {
+  width: 200px;
+  height: 70px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+a {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  text-decoration: none;
+}

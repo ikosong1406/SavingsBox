@@ -1,0 +1,35 @@
+.footer {
+  background: rgb(181, 7, 116);
+  background: linear-gradient(
+    317deg,
+    rgba(181, 7, 116, 1) 0%,
+    rgba(163, 172, 7, 1) 100%
+  );
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  margin-left: 17.5%;
+  width: 82.5%;
+  display: flex;
+  padding: 30px;
+}
+.vr {
+  width: 1px;
+  height: 20px;
+  background-color: #800505;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.container {
+  margin-left: 45%;
+}
+.footer a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+.footer p {
+  font-size: 15px;
+}
