@@ -53,3 +53,37 @@
   margin-left: 20%;
   width: 200px;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px;
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+  .vr {
+    width: 1px;
+    height: 10px;
+    background-color: #800505;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .footer a {
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+  }
+  .footer p {
+    font-size: 10px;
+    margin-left: 20%;
+    width: 100px;
+  }
+  .container {
+    margin-left: 90px;
+  }
+  .header {
+    width: 100%;
+    height: 200px;
+    padding-top: 20%;
+  }
+}

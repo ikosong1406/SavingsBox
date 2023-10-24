@@ -20,3 +20,89 @@
 .body {
   padding: 50px;
 }
+.footer {
+  background: rgb(181, 7, 116);
+  background: linear-gradient(
+    317deg,
+    rgba(181, 7, 116, 1) 0%,
+    rgba(163, 172, 7, 1) 100%
+  );
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+}
+.vr {
+  width: 1px;
+  height: 20px;
+  background-color: #800505;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+  width: 200px;
+}
+.footer p {
+  font-size: 13px;
+  margin-left: 40%;
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 120px;
+  }
+  .header {
+    width: 100%;
+    height: 100px;
+    background: rgb(198, 6, 126);
+    background: linear-gradient(
+      180deg,
+      rgba(198, 6, 126, 1) 0%,
+      rgba(198, 6, 126, 1) 50%,
+      rgba(147, 14, 190, 1) 100%
+    );
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+    font-size: 15px;
+    font-family: "Kanit", sans-serif;
+  }
+  .footer {
+    padding: 10px;
+  }
+  .vr {
+    width: 1px;
+    height: 10px;
+    background-color: #800505;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .footer a {
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+  }
+  .footer p {
+    font-size: 10px;
+    margin-left: 20%;
+    width: 100px;
+  }
+  .body {
+    padding: 25px;
+  }
+  .body p {
+    font-size: 7px;
+  }
+  .body ul li {
+    font-size: 7px;
+  }
+  .body h4 {
+    font-size: 7px;
+  }
+}

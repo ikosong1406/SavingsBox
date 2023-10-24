@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent {
-  isMenuOpen = false; // Set to false initially
+  isMenuOpen = false; // Initially, the menu is closed
 
   toggleMenu() {
-    this.isMenuOpen = !this.isMenuOpen;
+    this.isMenuOpen = !this.isMenuOpen; // Toggle the menu open/closed
   }
 }

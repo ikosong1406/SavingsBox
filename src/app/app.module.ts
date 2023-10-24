@@ -16,6 +16,8 @@ import { SavingsComponent } from './pages/savings/savings.component';
 import { SpendingComponent } from './pages/spending/spending.component';
 import { CreditComponent } from './pages/credit/credit.component';
 import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -33,8 +35,9 @@ import { ImageCarouselComponent } from './image-carousel/image-carousel.componen
     SpendingComponent,
     CreditComponent,
     ImageCarouselComponent,
+    ContactFormComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -1,0 +1,45 @@
+.form-group {
+  display: grid;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+.label {
+  color: white;
+  font-weight: 700;
+}
+.group {
+  display: flex;
+}
+.form-group input {
+  width: 300px;
+  height: 30px;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-left: 80%;
+  margin-top: 3%;
+}
+
+@media (max-width: 768px) {
+  .form-group {
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .label {
+    font-size: 12px;
+  }
+  .group {
+    display: grid;
+  }
+  .form-group input {
+    width: 150px;
+    height: 15px;
+  }
+  button {
+    padding: 5px;
+    margin-left: 80%;
+    margin-top: 3%;
+  }
+}
