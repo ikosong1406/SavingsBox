@@ -81,17 +81,18 @@
 
 @media (max-width: 768px) {
   .logo {
-    width: 150px;
-    height: 40px;
+    width: 80px;
+    height: 30px;
     margin-left: 20px;
+    margin-top: -5%;
   }
   .navbar {
     height: 3%;
-    width: 100%;
+    width: 80%;
     padding: 10px;
   }
   .navbar ul {
-    margin-left: 5%;
+    margin-left: -10%;
   }
   .nav-link.active {
     display: flex; /* Show the navigation menu when active */
@@ -106,5 +107,11 @@
     height: 3px;
     background-color: #fff;
     margin: 5px 0;
+  }
+  .dropdown a {
+    font-size: 7px;
+  }
+  .nav-link li a {
+    font-size: 7px;
   }
 }
