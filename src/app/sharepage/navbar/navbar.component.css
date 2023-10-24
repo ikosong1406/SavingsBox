@@ -81,7 +81,7 @@
 
 @media (max-width: 768px) {
   .logo {
-    width: 80px;
+    width: 100px;
     height: 30px;
     margin-left: 20px;
     margin-top: -5%;
@@ -92,7 +92,7 @@
     padding: 10px;
   }
   .navbar ul {
-    margin-left: -10%;
+    margin-left: 20%;
   }
   .nav-link.active {
     display: flex; /* Show the navigation menu when active */
